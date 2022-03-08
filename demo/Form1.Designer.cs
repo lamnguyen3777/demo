@@ -33,6 +33,7 @@ namespace demo
             this.TxtUserName = new System.Windows.Forms.TextBox();
             this.lblPassWord = new System.Windows.Forms.Label();
             this.TxtPassword = new System.Windows.Forms.TextBox();
+            this.Btnlogin = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // UserName
@@ -69,11 +70,21 @@ namespace demo
             this.TxtPassword.Size = new System.Drawing.Size(216, 20);
             this.TxtPassword.TabIndex = 3;
             // 
+            // Btnlogin
+            // 
+            this.Btnlogin.Location = new System.Drawing.Point(366, 264);
+            this.Btnlogin.Name = "Btnlogin";
+            this.Btnlogin.Size = new System.Drawing.Size(75, 23);
+            this.Btnlogin.TabIndex = 4;
+            this.Btnlogin.Text = "Login";
+            this.Btnlogin.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.Btnlogin);
             this.Controls.Add(this.TxtPassword);
             this.Controls.Add(this.lblPassWord);
             this.Controls.Add(this.TxtUserName);
@@ -91,6 +102,7 @@ namespace demo
         private System.Windows.Forms.TextBox TxtUserName;
         private System.Windows.Forms.Label lblPassWord;
         private System.Windows.Forms.TextBox TxtPassword;
+        private System.Windows.Forms.Button Btnlogin;
     }
 }
 
