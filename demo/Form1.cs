@@ -16,5 +16,25 @@ namespace demo
         {
             InitializeComponent();
         }
+
+        private void Btnlogin_Click(object sender, EventArgs e)
+        {
+
+            Form2 frm = new Form2();
+            string user = "admin";
+            string pass = "admin";
+            if (user.Equals(textboxusername.Text) && pass.Equals(textboxmatkhau.Text))
+            {
+                this.Hide();
+                frm.ShowDialog();
+            }
+            else
+            {
+                MessageBox.Show("Sai tai khoan hoac mat khau");
+                textboxmatkhau.Clear();
+                textboxusername.Clear();
+            }
+
+        }
     }
 }
