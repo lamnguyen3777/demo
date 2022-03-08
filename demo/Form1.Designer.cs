@@ -32,53 +32,52 @@ namespace demo
             this.UserName = new System.Windows.Forms.Label();
             this.TxtUserName = new System.Windows.Forms.TextBox();
             this.lblPassWord = new System.Windows.Forms.Label();
-            this.txtmatkhau = new System.Windows.Forms.TextBox();
+            this.TxtPassword = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // UserName
             // 
             this.UserName.AutoSize = true;
-            this.UserName.Location = new System.Drawing.Point(220, 191);
-            this.UserName.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.UserName.Location = new System.Drawing.Point(165, 155);
             this.UserName.Name = "UserName";
-            this.UserName.Size = new System.Drawing.Size(75, 17);
+            this.UserName.Size = new System.Drawing.Size(57, 13);
             this.UserName.TabIndex = 0;
             this.UserName.Text = "UserName";
             // 
             // TxtUserName
             // 
-            this.TxtUserName.Location = new System.Drawing.Point(387, 187);
-            this.TxtUserName.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.TxtUserName.Location = new System.Drawing.Point(290, 152);
             this.TxtUserName.Name = "TxtUserName";
-            this.TxtUserName.Size = new System.Drawing.Size(287, 22);
+            this.TxtUserName.Size = new System.Drawing.Size(216, 20);
             this.TxtUserName.TabIndex = 1;
             // 
             // lblPassWord
             // 
             this.lblPassWord.AutoSize = true;
-            this.lblPassWord.Location = new System.Drawing.Point(223, 240);
+            this.lblPassWord.Location = new System.Drawing.Point(163, 198);
+            this.lblPassWord.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblPassWord.Name = "lblPassWord";
-            this.lblPassWord.Size = new System.Drawing.Size(68, 17);
+            this.lblPassWord.Size = new System.Drawing.Size(59, 13);
             this.lblPassWord.TabIndex = 2;
-            this.lblPassWord.Text = "Mật Khẩu";
+            this.lblPassWord.Text = "PassWord ";
             // 
-            // txtmatkhau
+            // TxtPassword
             // 
-            this.txtmatkhau.Location = new System.Drawing.Point(387, 240);
-            this.txtmatkhau.Name = "txtmatkhau";
-            this.txtmatkhau.Size = new System.Drawing.Size(287, 22);
-            this.txtmatkhau.TabIndex = 3;
+            this.TxtPassword.Location = new System.Drawing.Point(290, 195);
+            this.TxtPassword.Margin = new System.Windows.Forms.Padding(2);
+            this.TxtPassword.Name = "TxtPassword";
+            this.TxtPassword.Size = new System.Drawing.Size(216, 20);
+            this.TxtPassword.TabIndex = 3;
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1067, 554);
-            this.Controls.Add(this.txtmatkhau);
+            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.TxtPassword);
             this.Controls.Add(this.lblPassWord);
             this.Controls.Add(this.TxtUserName);
             this.Controls.Add(this.UserName);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
@@ -91,7 +90,7 @@ namespace demo
         private System.Windows.Forms.Label UserName;
         private System.Windows.Forms.TextBox TxtUserName;
         private System.Windows.Forms.Label lblPassWord;
-        private System.Windows.Forms.TextBox txtmatkhau;
+        private System.Windows.Forms.TextBox TxtPassword;
     }
 }
 
