@@ -58,9 +58,9 @@ namespace demo
             this.lblPassWord.AutoSize = true;
             this.lblPassWord.Location = new System.Drawing.Point(223, 240);
             this.lblPassWord.Name = "lblPassWord";
-            this.lblPassWord.Size = new System.Drawing.Size(73, 17);
+            this.lblPassWord.Size = new System.Drawing.Size(68, 17);
             this.lblPassWord.TabIndex = 2;
-            this.lblPassWord.Text = "PassWord";
+            this.lblPassWord.Text = "Mật Khẩu";
             // 
             // txtmatkhau
             // 
