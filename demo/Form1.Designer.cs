@@ -30,9 +30,9 @@ namespace demo
         private void InitializeComponent()
         {
             this.UserName = new System.Windows.Forms.Label();
-            this.TxtUserName = new System.Windows.Forms.TextBox();
+            this.textboxusername = new System.Windows.Forms.TextBox();
             this.lblPassWord = new System.Windows.Forms.Label();
-            this.TxtPassword = new System.Windows.Forms.TextBox();
+            this.textboxmatkhau = new System.Windows.Forms.TextBox();
             this.Btnlogin = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
@@ -45,12 +45,12 @@ namespace demo
             this.UserName.TabIndex = 0;
             this.UserName.Text = "tên đăng nhập";
             // 
-            // TxtUserName
+            // textboxusername
             // 
-            this.TxtUserName.Location = new System.Drawing.Point(290, 152);
-            this.TxtUserName.Name = "TxtUserName";
-            this.TxtUserName.Size = new System.Drawing.Size(216, 20);
-            this.TxtUserName.TabIndex = 1;
+            this.textboxusername.Location = new System.Drawing.Point(290, 152);
+            this.textboxusername.Name = "textboxusername";
+            this.textboxusername.Size = new System.Drawing.Size(216, 20);
+            this.textboxusername.TabIndex = 1;
             // 
             // lblPassWord
             // 
@@ -62,13 +62,13 @@ namespace demo
             this.lblPassWord.TabIndex = 2;
             this.lblPassWord.Text = "mật khẩu ";
             // 
-            // TxtPassword
+            // textboxmatkhau
             // 
-            this.TxtPassword.Location = new System.Drawing.Point(290, 195);
-            this.TxtPassword.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.TxtPassword.Name = "TxtPassword";
-            this.TxtPassword.Size = new System.Drawing.Size(216, 20);
-            this.TxtPassword.TabIndex = 3;
+            this.textboxmatkhau.Location = new System.Drawing.Point(290, 195);
+            this.textboxmatkhau.Margin = new System.Windows.Forms.Padding(2);
+            this.textboxmatkhau.Name = "textboxmatkhau";
+            this.textboxmatkhau.Size = new System.Drawing.Size(216, 20);
+            this.textboxmatkhau.TabIndex = 3;
             // 
             // Btnlogin
             // 
@@ -85,9 +85,9 @@ namespace demo
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.Btnlogin);
-            this.Controls.Add(this.TxtPassword);
+            this.Controls.Add(this.textboxmatkhau);
             this.Controls.Add(this.lblPassWord);
-            this.Controls.Add(this.TxtUserName);
+            this.Controls.Add(this.textboxusername);
             this.Controls.Add(this.UserName);
             this.Name = "Form1";
             this.Text = "Form1";
@@ -99,9 +99,9 @@ namespace demo
         #endregion
 
         private System.Windows.Forms.Label UserName;
-        private System.Windows.Forms.TextBox TxtUserName;
+        private System.Windows.Forms.TextBox textboxusername;
         private System.Windows.Forms.Label lblPassWord;
-        private System.Windows.Forms.TextBox TxtPassword;
+        private System.Windows.Forms.TextBox textboxmatkhau;
         private System.Windows.Forms.Button Btnlogin;
     }
 }
